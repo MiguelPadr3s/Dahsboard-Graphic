@@ -2,8 +2,9 @@ import { Route, Routes } from "react-router-dom";
 import Topbar from "./scenes/global/Topbar";
 import { ColorModeContext, useMode } from "./theme";
 import { CssBaseline, ThemeProvider } from "@mui/material";
-import Dashboard from "./scenes/dashboard/index";
+import Dashboard from "./scenes/dashboard/index.jsx";
 import MySidebar from "./scenes/global/MySidebar";
+import Team from "./scenes/team/index.jsx";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -18,6 +19,7 @@ function App() {
             <Topbar />
             <Routes>
               <Route path="/" element={<Dashboard />} />
+              <Route path="/team" element={<Team />} />
             </Routes>
           </main>
         </div>
