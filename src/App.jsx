@@ -8,6 +8,7 @@ import Team from "./scenes/team/index.jsx";
 import Contacts from "./scenes/contacts/index.jsx";
 import Invoices from "./scenes/invoices/index.jsx";
 import Form from "./scenes/form/index.jsx";
+import Calendar from "./scenes/calendar/index.jsx";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
               <Route path="/contacts" element={<Contacts/>}/>
               <Route path="/invoices" element={<Invoices/>}/>
               <Route path="/form" element={<Form/>}/>
+              <Route path="/calendar" element={<Calendar/>}/>
             </Routes>
           </main>
         </div>
