@@ -11,6 +11,8 @@ import Form from "./scenes/form/index.jsx";
 import Calendar from "./scenes/calendar/index.jsx";
 import Faq from "./scenes/faq/faq.jsx";
 import Bar from "./scenes/bar/index.jsx";
+import Pie from "./scenes/pie/index.jsx";
+import Line from "./scenes/line/index.jsx";
 
 
 function App() {
@@ -33,6 +35,8 @@ function App() {
               <Route path="/calendar" element={<Calendar/>}/>
               <Route path="/faq" element={<Faq/>}/>
               <Route path="/bar" element={<Bar/>}/>
+              <Route path="/pie" element={<Pie/>}/>
+              <Route path="/line" element={<Line/>}/>
             </Routes>
           </main>
         </div>
