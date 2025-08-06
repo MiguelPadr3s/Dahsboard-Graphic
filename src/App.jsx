@@ -13,6 +13,7 @@ import Faq from "./scenes/faq/faq.jsx";
 import Bar from "./scenes/bar/index.jsx";
 import Pie from "./scenes/pie/index.jsx";
 import Line from "./scenes/line/index.jsx";
+import Geography from "./scenes/geography/index.jsx";
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
               <Route path="/bar" element={<Bar/>}/>
               <Route path="/pie" element={<Pie/>}/>
               <Route path="/line" element={<Line/>}/>
+              <Route path="/geography" element={<Geography/>}/>
             </Routes>
           </main>
         </div>
