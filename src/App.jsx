@@ -10,6 +10,7 @@ import Invoices from "./scenes/invoices/index.jsx";
 import Form from "./scenes/form/index.jsx";
 import Calendar from "./scenes/calendar/index.jsx";
 import Faq from "./scenes/faq/faq.jsx";
+import Bar from "./scenes/bar/index.jsx";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
               <Route path="/form" element={<Form/>}/>
               <Route path="/calendar" element={<Calendar/>}/>
               <Route path="/faq" element={<Faq/>}/>
+              <Route path="/bar" element={<Bar/>}/>
             </Routes>
           </main>
         </div>
